@@ -150,3 +150,93 @@ class ListaimposteModel(models.Model):
 
 
 
+class DipendentiModel(models.Model):
+    id = models.BigAutoField(primary_key=True)
+
+
+
+
+class DipendentiModel(models.Model):
+    id = models.BigAutoField(primary_key=True)
+
+
+
+
+class AssenzeModel(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    codice_matricola = models.CharField(max_length=255, null=True, blank=True)
+    operatore = models.CharField(max_length=255, null=True, blank=True)
+    sede = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+
+
+
+
+class AssenzeModel(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    codice_matricola = models.CharField(max_length=255, null=True, blank=True)
+    operatore = models.CharField(max_length=255, null=True, blank=True)
+    sede = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+    mer = models.CharField(max_length=255, null=True, blank=True)
+    gio = models.CharField(max_length=255, null=True, blank=True)
+    ven = models.CharField(max_length=255, null=True, blank=True)
+    sab = models.CharField(max_length=255, null=True, blank=True)
+    dom = models.CharField(max_length=255, null=True, blank=True)
+    lun = models.CharField(max_length=255, null=True, blank=True)
+    mar = models.CharField(max_length=255, null=True, blank=True)
+
+
+
+
